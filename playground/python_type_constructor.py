@@ -1,11 +1,8 @@
 x = str("Hello World") # str --> usar el constructor asegura que el tipo de esa variable es str
-print(""" x = str("Hello World")""")
+print("""x = str('Hello World') \n""")
 print(x)
 print(type(x))
-
-y="Hola Mundo"  # el interprete hace el autotipado y lo hace bien, le pone un str
-print(y)
-print(type(y))
+x.center
 
 z=1j
 print(z)
