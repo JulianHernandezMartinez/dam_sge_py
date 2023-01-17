@@ -1,11 +1,14 @@
 # Este primer ejercicio es de ejemplo
+#
 # Se incluye la parte comentada con "#"
 # Y la solución
-# 
-# Enunciado
+# ENUNCIADO DE LA PRACTICA
 #
-# haz un programa que pida dos numeros X e Y y que los intercambie
-# y presente una salida del tipo "número 1 es Y , número 2 es X"
+#
+# haz un programa que pida dos numeros 
+# X e Y y que los intercambie
+# y presente una salida del tipo 
+# "número 1 es Y , número 2 es X"
 #
 # 
 # Escribe tu solucion aqui: 
@@ -20,3 +23,8 @@ num1 = num2
 num2 = temp
 
 print(f"número 1 es {num1}, número 2 es {num2}")
+
+# alternativas
+# sin hacer el cambio a una temp(oral)
+print(f"número 1 es {num2}, número 2 es {num1}")
+

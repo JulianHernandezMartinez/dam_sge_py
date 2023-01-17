@@ -1,9 +1,24 @@
+# ENUNCIADO DE LA PRACTICA
+#
+# Juega con la funcion len(x) 
+# de manera que planteando
+# operaciones de comparacion y logicas
+# se cumpla la sentencia comentada
+# Para entenderlo ver el ejemplo
+# de la primera linea:
+#  
+# Escribe tu solucion aqui: 
+#
+# SOLUCION
+#
+
 a = "Pere"
 b = "Pol"
 
 # las longitudes son iguales: False
-
-
+# ejemplo
+print(len(a) == len(b))
+print(not(len(a) != len(b)))  #Not(True)->False
 # todas tienen longitud 3: False
 
 
