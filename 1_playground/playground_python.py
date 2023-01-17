@@ -1,6 +1,20 @@
-#tipos y estructuras de datos (tuplas, ranges, list, sets, dictionaries...)
+print('TIPOS BASICOS y AUTOTIPADOS')
+print('\n')
 
-a_string = "hola caracola"
+a_string = "hola caracola" #cadena de caracteres
+print(a_string)
+print('el string "',a_string,'" se puede \nconsiderar un array o lista \nde caracteres. OJO (PROBLEMILLA - ERROR,\ncon espacios)')
+print(a_string[0]) # caracter del indice 0 ('h') de la cadena "hola caracola"
+
+print("\nla funcion f'string_x {} permite \nformar o formatear frases y resolver \nel problemilla de espacios\n")
+frase =f'el PROBLEMA-ERROR de los espacios en:\nel string "{a_string}" se puede \nya CORREGIDO!!, sin espacios \ngracias a f-funcion'
+print(frase)
+
+print('\nla funcion len(string), o len(x)\n')
+
+length_of_a_string = len(a_string)
+print(length_of_a_string) # imprime la longitud de la cadena "hola caracola"
+
 a_integer_number = 123
 a_float_number = 12.3456
 a_boolean_true = True
@@ -9,21 +23,82 @@ a_new_boolean_true = True
 a_new_boolean_false = False
 verdadomentira = True
 
+print({a_integer_number},{a_float_number},{a_boolean_true},{a_boolean_false})
+print(a_integer_number,a_float_number,a_boolean_true,a_boolean_false)
+
+
+print('\nFuncion type() obtiene la clase/tipo de una variable \n')
+
+# Funcion type() restorna el tipo asignado a una variable
+print(type(a_string))
+print(type(a_float_number))
+print(type(verdadomentira))
+
+
+print('... y parecia buena idea pero...')
+print('....no lo era \n ¡muerte al "autotipado! \n ¡vivan los constructores de tipos! \n')
+
+print('CONSTRUCTORES/ASIGNADORES de TIPOS \n')
+
+x = str("Hello World") # str --> usar el constructor asegura que el tipo de esa variable es str
+print("""x = str('Hello World') \n""")
+print(x)
+print(type(x))
+x.center
+
+z=1j
+print(z)
+print(type(z))
+
+x = str("Hello World") # str
+x = int(20) #int 	
+x = float(20.5)#float 	
+x = complex(1j)#complex 	
+x = list(("apple", "banana", "cherry"))#list 	
+x = tuple(("apple", "banana", "cherry"))#tuple 	
+x = range(6)#range 	
+x = dict(name="John", age=36)#dict 	
+x = set(("apple", "banana", "cherry"))#set 	
+x = frozenset(("apple", "banana", "cherry"))#frozenset 	
+x = bool(5)#bool 	
+x = bytes(5)#bytes 	
+x = bytearray(5)#bytearray 	
+x = memoryview(bytes(5)) #memoryview
+
+# YYY hasta aqui 1_tipos_basicos
+
+print('\nFIN DE TIPOS BASICOS Y FUNCIONES BASICAS\n')
+
+#tipos y estructuras de datos (tuplas, ranges, list, sets, dictionaries...)
+print('\nTipos de estructuras de datos\n')
+
+print('strings(array), TUPLAS, LISTAS, SETS, DICCIONARIOS, arrays  \n')
+
 #TUPLAS('A','B', 1, 5, True)
-#tuplas(), -->lists[] --> sets{} 
+#tuplas(), -->lists[] --> sets{} -->Dictionaries
+print('TUPLAS() - como arrays INMUTABLES\n')
 
 #tuplas,arrays inmutables
-
 persona = ('Erika', 38, True)
-name, age, registered = persona
-print(name, age)
-print(persona[0], persona[1], persona[2])
+print(persona) # tupla entre parentesis ()
+name, age, registered = persona # permite asociar elementos a variables
+print(name, age) # Erika 38
+#sus elementos, caracteres, se pueden referenciar como elementos indexados de un array
+print(persona[1], persona[2],'\n') # 38, True
 
-#las tuplas no se pueden modificar (INMUTABLES), si se desean ampliar, es necesario crear una nueva tupla
+# las tuplas no se pueden modificar 
+# (son INMUTABLES), si se desean ampliar,
+# es necesario crear una nueva tupla
+
+print('\nla funcion len() NUEVAMENTE en string, tuplas, etc')
+print('el operador "*" para desempaquetar, desplegar tuplas...\n')
+
 t =(1,2,3, 'bici', 'coche', 'moto')
 t1 = (*t,5,4,3) # '*' desempaqueta la tupla t, podemos crear t1, en base a t, pero no añadir sobre t
 print(t1, 'la longitud de t es:', len(t), 'la longitud de t1 es:', len(t1))
-print('la funcion str(t) convierte la tupla t en un string y ojo que le incluye los parentesis',str(t))
+print('la funcion str(t) convierte la tupla t en un string y ojo que le incluye los parentesis',str(t),'\n')
+
+print('LISTAS - como arrays MUTABLES[] \n')
 
 #lists, arrays mutables y pueden tener elementos repetidos
 lista = [8,5,6,7,8,9]
@@ -32,6 +107,7 @@ print(lista)
 l=list(t1) #list es un conversor de tupla en lista, conierte la tupla t1 en una lista l
 print(l)
 
+print('\n SETS - como arrays MUTABLES sin REPETIDOS{} \n')
 # sets, arrays ORDENADOS y mutables, NO pueden tener elementos repetidos, 
 
 s={9,7,5}
@@ -39,6 +115,9 @@ s1=set(t) #constructor/conversor de un set a partir de una tupla
 s2=set(l) #constructor de un set a partir de una lista
 s3=set()
 print('a=',s1,'b=',set(t1),'c=', set(lista),'d=', set(l), 'e=',set(l)==set(t1), 'f=',set(),'g=',set(l1),'h=', s3)
+print('\n')
+# YYY hasta aqui 1_tipos_basicos_y_mas
+# YYY hasta aqui 1_tipos_basicos_y_mas
 
 # LISTS (Create, Sort, Append, Remove, And More)(arrays de elementos de todo tipo)
 

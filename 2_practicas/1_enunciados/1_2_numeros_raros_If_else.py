@@ -28,4 +28,8 @@
 # EXPLICACION
 # n=3
 # n es impar y los números impares son Raros
-
+# 
+# Escribe tu solucion aqui: 
+#
+# SOLUCION
+#

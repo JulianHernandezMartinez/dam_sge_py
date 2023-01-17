@@ -12,3 +12,8 @@
 # asdf | qwer ==> diferentes
 # asdfasdfa ==> demasiado larga
 # as ==> dedasiado corta
+# 
+# Escribe tu solucion aqui: 
+#
+# SOLUCION
+#

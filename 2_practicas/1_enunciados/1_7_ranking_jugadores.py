@@ -12,6 +12,11 @@
 # 2. Rukia – 1198
 # 3. Kisuke - 850
 
+# Escribe tu solucion aqui: 
+#
+# SOLUCION
+#
+
 jug1 = "Rosa"
 jug2 = "Alberto"
 jug3 = "Alejandro"
