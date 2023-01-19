@@ -118,7 +118,8 @@ print('a=',s1,'b=',set(t1),'c=', set(lista),'d=', set(l), 'e=',set(l)==set(t1), 
 print('\n')
 # YYY hasta aqui 1_tipos_basicos_y_mas
 # YYY hasta aqui 1_tipos_basicos_y_mas
-
+print('OPERACIONES CON LISTAS')
+print('\n')
 # LISTS (Create, Sort, Append, Remove, And More)(arrays de elementos de todo tipo)
 
 # Create
@@ -233,6 +234,9 @@ print('los elementos de la lista ordenados ascencentemente son', sorted(a_unsort
 print('la lista permanece desordenada',a_unsorted_list) # no es IN-PLACE
 print('los elementos de la lista ordenados descencentemente son', sorted(a_unsorted_list,reverse=True)) # for more check https://en.wikipedia.org/wiki/UTF-8
 print('la lista permanece desordenada',a_unsorted_list) # no es IN-PLACE
+
+print('OPERACIONES CON LISTAS -PARTE 2')
+print('\n')
 
 print('XXXXXXXXXXXXXXXXXXX---SLICING-LIST,TUPLAS,STRINGS--my_list[start:stop:step]XXXXXXXXXXXXXXXXXXX')
 

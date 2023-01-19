@@ -41,21 +41,21 @@ print(f'la funcion str(t) convierte la tupla t en un string {a_new_string} \n')
 
 print('LISTAS[]- como arrays MUTABLES \n')
 
-#lists, arrays mutables y pueden tener elementos repetidos
+#lists, arrays mutables y pueden tener elementos repetidos, y tipos diferentes
 lista = [8,5,6,7,8,9]
 l1=[0,]
 print(lista)
 l=list(t1) #list es un conversor de tupla en lista, conierte la tupla t1 en una lista l
 print(l)
 
-print('\n SETS - como arrays MUTABLES sin REPETIDOS{} \n')
-# sets, arrays ORDENADOS y mutables, NO pueden tener elementos repetidos, 
+print('\n SETS{} - como arrays MUTABLES sin REPETIDOS \n')
+# sets, arrays ORDENADOS y mutables, NO pueden tener elementos repetidos, pueden tener diferentes tipos
 
 s={9,7,5}
 s1=set(t) #constructor/conversor de un set a partir de X en el caso una tupla
 s2=set(l) #constructor de un set a partir de X, en el caso una lista
-s3=set()
-print('a=',s1,'b=',set(t1),'c=', set(lista),'d=', set(l), 'e=',set(l)==set(t1), 'f=',set(),'g=',set(l1),'h=', s3)
+s3={}
+print('a=',s1,'b=',set(t1),'c=', set(lista),'d=', set(l), 'e=',set(l)==set(t1), 'f=',{},'g=',set(l1),'h=', s3)
 
 print('\nRESUMEN un string se puede considerar un array de caracteres')
 print('RESUMEN los constructores son conversores de STRING<->TUPLAS<->LIST<->SETs')
