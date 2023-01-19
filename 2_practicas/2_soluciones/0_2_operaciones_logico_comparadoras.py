@@ -15,6 +15,7 @@ print(a[-1] == "l" or b[-1] == "l")
 # todas comienzan por P: True
 print(a[0] == "P" and b[0] == "P")
 # alguna no contiene la r: True
+
 print(a.find("r") == -1 or b.find("r") == -1)
 # la longitud de a es mayor que la de b: True
 print(len(a) > len(b))

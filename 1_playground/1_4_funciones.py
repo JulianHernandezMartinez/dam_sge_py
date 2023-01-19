@@ -49,6 +49,7 @@ print('pueden retornar multiples resultados, se recomienda que se usen dataclass
 print('las dataclasses se han agregado para evitar "misstypes"pueden retornar multiples resultados, se recomienda que se usen dataclasses para obtenerlos')
 
 # @dataclass
+
 from dataclasses import dataclass
 @dataclass
 class Card:

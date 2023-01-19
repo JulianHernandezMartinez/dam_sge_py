@@ -1,5 +1,6 @@
 
-# pregunta una palabra (por ejemplo: avión) y escribe por pantalla:
+# pregunta una palabra (por ejemplo: avión) 
+#y escribe por pantalla:
 # avión tiene 5 letras
 # de tres formas:
 # 1) print con un parámetro y concatenación de strings
@@ -8,5 +9,5 @@
 
 palabra = input("palabra? ")
 print(palabra + " tiene " + str(len(palabra)) + " letras") #concatenando
-print(palabra, "tiene", len(palabra), "letras")  #Varios parametros separados por comas
+print(palabra, len(palabra), "letras")  #Varios parametros separados por comas
 print(f"{palabra} tiene {len(palabra)} letras") # funcion f'
