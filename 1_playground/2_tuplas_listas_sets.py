@@ -60,8 +60,14 @@ print('a=',s1,'b=',set(t1),'c=', set(lista),'d=', set(l), 'e=',set(l)==set(t1), 
 print('\nRESUMEN un string se puede considerar un array de caracteres')
 print('RESUMEN los constructores son conversores de STRING<->TUPLAS<->LIST<->SETs')
 
-print('\n Fin de TUPLAS, LISTAS y SETS\n')
-print('... y los RANGEs pa cuando..\n')
 
-
+# Create with list() function
+a_list_from_0_to_9=list(range(10))
+a_list_from_1_to_9=list(range(1,10))
+a_list_from_2_to_9_in_steps_of_2=list(range(2,10,2))
+print(a_list_from_0_to_9)
+print(a_list_from_1_to_9)
+print(a_list_from_2_to_9_in_steps_of_2)
 # YYY hasta aqui la intro de tuplas, listas y sets
+
+print('\n Fin de TUPLAS, LISTAS y SETS\n')
