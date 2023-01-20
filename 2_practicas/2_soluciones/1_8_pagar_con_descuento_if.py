@@ -4,6 +4,8 @@
 # de lo contrario únicamente le hace el 5%. 
 # El resultado es necesario que nos diga la cantidad descontada y la cantidad a pagar.
 
+
+
 cantidad = int(input("cantidad? "))
 
 if cantidad > 10000:
