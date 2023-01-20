@@ -14,10 +14,10 @@ verdadomentira = True
 
 # sentencia para asignar una entrada 
 # de datos desde la entrada por defecto, 
-# la coonsola, y convertirla en un numero
-# entero
+# la consola, y convertirla en un numero
+# entero int(x)  x=input()
 
-total_segundos = int(input("segundos? "))
+# input example - total_segundos = int(input("segundos? "))
 
 # Ejemplos de print()
 print(a_boolean_true,a_string,a_integer_number, a_float_number) #separados por ' ' (espacio)
@@ -79,9 +79,9 @@ while i <= 5:
 #Appple Street - Infinite loop o inicio (3)
 verdadomentira = True
 i=1
-i_max= 10
+i_max= 6
 while verdadomentira:
-    print(f'Infinite loop {i}')
+    print(f'loop {i}')
     i = i+1
     if i>i_max:
         verdadomentira=False

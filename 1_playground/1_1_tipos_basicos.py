@@ -38,7 +38,7 @@ print(type(verdadomentira))
 print('... y parecia buena idea pero...')
 print('....no lo era \n ¡muerte al "autotipado! \n ¡vivan los constructores de tipos! \n')
 
-print('CONSTRUCTORES/ASIGNADORES de TIPOS \n')
+print('CONSTRUCTORES/ASIGNADORES/CONVERSORES de TIPOS \n')
 
 x = str("Hello World") # str --> usar el constructor asegura que el tipo de esa variable es str
 print("""x = str('Hello World') \n""")
@@ -66,6 +66,13 @@ x = bytearray(5)#bytearray
 x = memoryview(bytes(5)) #memoryview
 
 print('\nFIN DE TIPOS BASICOS Y FUNCIONES BASICAS\n')
-palabra = input("palabra? ") # solicita una palabra por el default input
-print(palabra)
+
+# para empezar a jugar con entradas  y salidas descomenta las dos lineas siguientes
+dato =float(1.4567)
+print(dato)
+print(type(dato))
+dato = input("introduce un dato, e.g. 1.4567?") # solicita una palabra por el default input
+print(dato)
+print(type(dato))
+print('todo lo que se recoge es por defecto "string"')
 
