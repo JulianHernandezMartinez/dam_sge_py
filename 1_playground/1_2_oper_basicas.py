@@ -64,17 +64,20 @@ print('FOR FOR FOR FOR')
 
 for letter in "hello 2023!":
     print(letter)
+print(f'for loop finished!\n')
 
 my_list = ['Esperamos', 'que', 'el año', 2023, 'sea un buen año desde el dia', 1, 'al 31 de diciembre'] #lista con [] y puede tener diferentes tipos, incluso listas de listas
 for item in my_list:
     print(item)
+print(f'new for loop finished!\n')
 
-print('WHILE WHILE WHILE WHILE')
+print('WHILE WHILE WHILE WHILE\n')
 
 i = 1
 while i <= 5:
     print(my_list[i])
     i = i + 1
+print(f'while loop finished!\n')
 
 #Appple Street - Infinite loop o inicio (3)
 verdadomentira = True
@@ -85,5 +88,6 @@ while verdadomentira:
     i = i+1
     if i>i_max:
         verdadomentira=False
+print(f'while loop finished!')
 
 
