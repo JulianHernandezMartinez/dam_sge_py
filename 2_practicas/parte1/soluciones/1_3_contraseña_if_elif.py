@@ -1,8 +1,13 @@
 
-# pregunta una contraseñaa
-# si es "demasiado corta" o "demasiado larga", lo decimos y finalizamos
-# si no, solicita repetir la contraseña
-# si son iguales di "iguales", si no lo son, di "diferentes"
+# Pregunta una contraseña
+# si es "demasiado corta"(< 3 caracteres) 
+# o "demasiado larga"(>8 caracteres), 
+# lo decimos y finalizamos.
+
+# si no,(3-8) solicita repetir la contraseña.
+
+# si son iguales di "iguales", si no lo 
+# son, di "diferentes"
 
 # asdf | asdf ==> iguales
 # asdf | qwer ==> diferentes

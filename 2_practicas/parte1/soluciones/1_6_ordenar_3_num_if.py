@@ -1,4 +1,16 @@
-# Crea un programa que lee 3 números y los muestra ordenados de mayor a menor.
+"""Crea un programa que lee 3 números 
+y los muestra ordenados de mayor a menor.
+
+
+
+
+
+
+
+
+SOLUCION
+
+"""
 
 p1 = int(input("1? "))
 p2 = int(input("2? "))

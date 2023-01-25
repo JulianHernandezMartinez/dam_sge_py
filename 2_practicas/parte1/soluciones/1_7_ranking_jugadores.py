@@ -1,16 +1,29 @@
-# Crea un programa que guarde las puntuaciones de los jugadores del Tetris. 
-# El programa debe pedir la y puntuación de tres jugadores,
+# Crea un programa que guarde las 
+# puntuaciones de los jugadores del 
+# Tetris. 
+# El programa debe pedir la  
+# puntuación de tres jugadores,
 
 # jug1 = "Rosa"
 # jug2 = "Alberto"
 # jug3 = "Alejandro"
 
-# Tiene que ordenar las puntuaciones en formato podio (es decir de forma descendente). 
-# Por último, mostrará por pantalla el podio final.
+# Tiene que ordenar las puntuaciones 
+# en formato podio (es decir de forma 
+# descendente). 
+
+# Por último, mostrará por pantalla 
+# el podio final.
 
 # 1. Ichigo– 1220
 # 2. Rukia – 1198
 # 3. Kisuke - 850
+
+
+
+
+#Solucion
+
 
 jug1 = "Rosa"
 jug2 = "Alberto"

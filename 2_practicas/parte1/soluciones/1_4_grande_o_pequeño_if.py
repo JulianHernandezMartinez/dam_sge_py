@@ -1,5 +1,16 @@
 
-# Crea un programa que pida 3 números y que diga cual es eñ mas grande y cual es el mas pequeño.
+""" Crea un programa que pida 
+3 números y que diga cual es el 
+mas grande y cual es el mas pequeño.
+
+
+
+
+
+
+
+
+SOLUCION """
 
 num1 = int(input("número 1? "))
 num2 = int(input("número 2? "))
@@ -19,4 +30,4 @@ elif num2 <= num1 and num2 <= num3:
 else:
     pequeño = num3
 
-print(f"el més pequeño es el {pequeño}, y el mas grande es {grande}")
+print(f"el mas pequeño es el {pequeño}, y el mas grande es {grande}")
