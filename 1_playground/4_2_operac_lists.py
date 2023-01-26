@@ -12,6 +12,8 @@ print('la sublista de elementos en pasos de a 3', a_alpha_sublist)
 
 print('XXXXXXXXXXXXXXXXXXX---REVERSE LIST in_place . reverse() and others XXXXXXXXXXXXXXXXXXX')
 
+
+
 # In-place reverse
 a_alpha_list.reverse()
 print('Using list reverse:', a_alpha_list)
