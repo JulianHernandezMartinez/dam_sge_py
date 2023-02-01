@@ -112,7 +112,7 @@ happens to have the same name.
 car1=Car()
 car2=Car()
 
-# id() buit-in method shows the unique Id of each car object
+# id() built-in method shows the unique Id of each car object
 print(id(car1))
 print(id(car2))
 
@@ -122,7 +122,7 @@ print(car1.speed) # 10 .- car1 speed is now 10
 print(car2.speed) # 0 car2  speed is Cero, not even started YET
 
 #Inheritance
-""" si vemos con dirCar) los metodos de Car, 
+""" si vemos con dir(Car) los metodos de Car, 
 ademas de los definidos . start, stop, 
 .increase_speed... cuenta con otros muchos
 empezando por __class__, y __init__ """

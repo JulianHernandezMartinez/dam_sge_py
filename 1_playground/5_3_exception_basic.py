@@ -13,10 +13,10 @@ BaseException
       """
 
 # una excepcion es una condicion"excepcional"
-# que se alcanza# durante la ejecucion de
+# que se alcanza durante la ejecucion de
 # un programa.
 # 
-# ES una señal de que algo inesperado ha sucedido
+# Es una señal de que algo inesperado ha sucedido
 
 try:
     print(10/0)
