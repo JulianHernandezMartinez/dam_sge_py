@@ -24,3 +24,17 @@ numero2 = numero + float(cadena)
 print(numero2)
 numero2 = numero + round(float(cadena))
 print(numero2)
+
+
+# variable global en la funcion
+# golbal keyword
+
+x = "awesome"
+
+def myfunc():
+  global x   # emplea la variable x como global
+  x = "fantastic" 
+
+myfunc()
+
+print("Python is " + x) # Python is fantastic
