@@ -25,7 +25,7 @@ except ZeroDivisionError:
 
 try:
     # Open file in read-only mode
-    with open("53nothere.txt", 'w') as f:
+    with open("53nothere.txt", 'r') as f:
         f.write("Hello World!")
 except IOError as e:
     print("An error occurred:", e) #BEST PRACTICES esa e es ORO
