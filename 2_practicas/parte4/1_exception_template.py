@@ -10,7 +10,7 @@ Tienes que modificarlo para que se puedan
 interrumpir la primera espera con CTRL-C y a 
 la vez, que se saquen por consola el 
 segundo en el que se ha interrumpido e 
-informacion de la excepcion que la ha 
+informacion de la excepcion producidad por 
 esa interrupcion Ctrl-C
  
 """
