@@ -1,5 +1,10 @@
 # GLOBALES
 # Añade las variables globales que necesites para tu programa
+noms = [] # Nombres
+nums = [] # Numeros
+
+
+print (noms);
 
 
 # FUNCIONES
