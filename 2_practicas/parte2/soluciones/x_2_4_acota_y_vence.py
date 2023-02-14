@@ -26,17 +26,17 @@ import random
 
 min = 1
 max = 99
-nombre = random.randrange(1, 100)
+numero = random.randrange(1, 100)
 found = False
 while not found:
     guess = int(input(f"entre {min} y {max}? "))
-    if guess == nombre:
+    if guess == numero:
         found = True
-    elif guess < nombre:
+    elif guess < numero:
         print(f"más grande que {guess}")
         if guess >= min:
             min = guess+1
-    elif guess > nombre:
+    elif guess > numero:
         print(f"más pequeño que {guess}")
         if guess <= max:
             max = guess-1
