@@ -6,6 +6,11 @@ print("playgroung de accesos, \nasignaciones, borrados y troceados \nde tipos se
 
 colors = ['red', 'green', 'blue', 'yellow', 'white', 'black']
 
+if 'red' in colors:
+    print('red is in the color list ')
+else:
+    print ('red is not in the color list')
+    
 #Asignacion (solo elementos con indice)
 colors[5]="purple"
 print(colors)
