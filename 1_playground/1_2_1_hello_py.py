@@ -1,4 +1,4 @@
-# comencem amb Python!
+# iniciemos con Python!
 print("Hello, 'world' 1")
 print() # una línea en blanco sin contenido
 print('Hello, "world" 2')
