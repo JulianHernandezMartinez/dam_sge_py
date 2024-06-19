@@ -1,0 +1,6 @@
+#Another lovely ways (interpolation)
+name = input("Name? ")
+age = input("Age? ")
+city = input("City? ")
+#Another lovely ways (interpolation)
+print (f'Summary \n Your name is {name} \n Your Age is {age}\n You live in {city}') 
